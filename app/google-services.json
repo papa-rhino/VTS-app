@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "806723281061",
+    "firebase_url": "https://vtsfirebase.firebaseio.com",
+    "project_id": "vtsfirebase",
+    "storage_bucket": "vtsfirebase.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:806723281061:android:3e8f678479dc279d",
+        "android_client_info": {
+          "package_name": "com.example.dhruv.vts"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "806723281061-c5kjmqe249vltu1jmi4mntobbuuccpak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dhruv.vts",
+            "certificate_hash": "f31166152cad1687bb3066c9c12f3172c38f99c4"
+          }
+        },
+        {
+          "client_id": "806723281061-7tddv72u18m5opqdkckqu6veedlveid3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAV9BCqIwKwUQvXTdXY6JEcm__1xTpMinc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "806723281061-7tddv72u18m5opqdkckqu6veedlveid3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dhruv.vts.LockDriversActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bluetexture"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EDIT DRIVERS"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="35dp"
+        android:layout_gravity="center"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DRIVER'S NAME:"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_margin="10dp"
+        />
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="enter driver's name here"
+        android:textSize="19dp"
+        android:id="@+id/driverName"/>
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" BUS ROUTE:"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:layout_margin="10dp"/>
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint="enter route here"
+        android:layout_gravity="center"
+        android:textSize="19dp"
+        android:layout_margin="10dp"
+        android:id="@+id/busRoute"
+       />
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="10dp" />
+    <Button
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:id="@+id/ADMIN_save"
+        android:text="SAVE"
+        android:onClick="saveAdmin"
+        android:padding="20dp"
+        android:textColor="#ffffff"
+        android:textSize="20dp"
+        android:background="@drawable/buttonstyle2"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:id="@+id/scrollView"
+        android:background="#D5F5F2"
+        android:layout_margin="5dp"
+        android:scrollbarStyle="insideOverlay"
+        android:scrollbarSize="10dp">
+
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/scrHost">
+
+    </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
